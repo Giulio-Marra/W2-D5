@@ -28,9 +28,10 @@ for(let i = 0 ; i < pets.length; i ++){
 */
 
 for(let i = 0; i < pets.length; i++){
-  let back = pets.reverse()
-   console.log(back)
-   break
+  let tot = pets
+  let back = tot.reverse()
+  console.log(back)
+  break
 }
 
 /* ESERCIZIO 4
